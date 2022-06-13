@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "PaperKotlinStarter"
+rootProject.name = "existence-smp-tablist"
