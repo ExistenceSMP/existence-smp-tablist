@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.existencesmp"
-version = "1.0.0"
+version = "1.0.1"
 description = "Mini tablist plugin for Existence SMP"
 
 repositories {

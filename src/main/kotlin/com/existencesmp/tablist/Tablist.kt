@@ -19,7 +19,7 @@ class Tablist : JavaPlugin() {
 
         INSTANCE = this
 
-        server.pluginManager.registerEvents(PlayerJoin(), this)
+        server.pluginManager.registerEvents(PlayerListener(), this)
     }
 
     companion object {
@@ -52,7 +52,7 @@ class Tablist : JavaPlugin() {
     }
 }
 
-class PlayerJoin : Listener {
+class PlayerListener : Listener {
     @EventHandler
     fun playerJoin(event: PlayerJoinEvent) {
         val player: Player = event.player
